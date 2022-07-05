@@ -1,0 +1,29 @@
+{
+  "$schema": "http://info.meshcentral.com/downloads/meshcentral-config-schema.json",
+  "settings": {
+    "mongoDb": "mongodb://meshcentral-db:27017",
+    "mongoDbName": "meshcentral",
+    "dbEncryptKey": "mysecretpassword",
+    "cert": "mesh.sand2.click",
+    "WANonly": true,
+    "_LANonly": true,
+    "_sessionKey": "MyReallySecretPassword1",
+    "port": 443,
+    "aliasPort": 443,
+    "redirPort": 80,
+    "redirAliasPort": 80
+             },
+  "domains": {
+    "": {
+      "title": "manhattan comuter",
+      "title2": "center",
+      "Footer": "Manhattan Computer Inc, 2022"
+        }
+             },
+     "letsencrypt": {
+           "email": "393770@gmail.com",
+           "names": "mesh.sand2.click,manhattancomputer.services",
+           "rsaKeySize": 3072,
+           "production": true
+                     }
+}
