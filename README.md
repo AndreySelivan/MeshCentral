@@ -1,4 +1,4 @@
 # MeshCentral
-Ubuntu Docker Compose MeshCentral SSL
+Docker Compose MeshCentral with SSL
 <br>
-sudo docker-compose up -d dodocker-compose.yml
+sudo docker-compose up -d 
