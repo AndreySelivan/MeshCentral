@@ -4,7 +4,7 @@
     "mongoDb": "mongodb://meshcentral-db:27017",
     "mongoDbName": "meshcentral",
     "dbEncryptKey": "mysecretpassword",
-    "cert": "mesh.sand2.click",
+    "cert": "DOMEN",
     "WANonly": true,
     "_LANonly": true,
     "_sessionKey": "MyReallySecretPassword1",
@@ -15,15 +15,15 @@
              },
   "domains": {
     "": {
-      "title": "manhattan comuter",
+      "title": "comp",
       "title2": "center",
-      "Footer": "Manhattan Computer Inc, 2022"
+      "Footer": "Comp Inc, 20__"
         }
              },
      "letsencrypt": {
-           "email": "393770@gmail.com",
-           "names": "mesh.sand2.click,manhattancomputer.services",
+           "email": "MAIL@gmail.com",
+           "names": "DOMEN1,DOMEN2",
            "rsaKeySize": 3072,
-           "production": true
+           "production": false
                      }
 }
